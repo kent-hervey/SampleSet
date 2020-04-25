@@ -1,6 +1,12 @@
 Created this small, simple project as contribution to team assignment.
 
-SampleSet creates a set that has number of elements = quantity Returned
-   Elements are random with lower bound of min, and upper bound of max
+
+SampleSet creates and returns as set based on arguments passed in:
+   * Quantity = number of elements in produced set
+   * max = maximum value of any element in the produced set
+   * min = minimum value of any element in the produced set
+   * max -min range must be large enough to accommodate quantity
+
+Elements are selected randomly to fill the set.
 
 Pushed for use by development team
