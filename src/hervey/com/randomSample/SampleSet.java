@@ -1,17 +1,18 @@
 package hervey.com.randomSample;
 
-import java.util.HashSet;
 import java.util.Random;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class SampleSet {
 	
 	
-	protected static HashSet <Integer> createSet(int quantityReturned, int max, int min) {
+	protected static Set <Integer> createSet(int quantityReturned, int max, int min) {
 		//creates a set that has number of elements = quantity Returned
 		//elements are random with lower bound of min, and upper bound of max
 
 		
-		HashSet <Integer> outputSet = new HashSet<Integer>();
+		Set <Integer> outputSet = new TreeSet<Integer>();
 		
 		if (min >= max) {
 			throw new IllegalArgumentException("max must be greater than min");

@@ -9,4 +9,6 @@ SampleSet creates and returns as set based on arguments passed in:
 
 Elements are selected randomly to fill the set.
 
+Uses TreeSet to produce sorted result.
+
 Pushed for use by development team

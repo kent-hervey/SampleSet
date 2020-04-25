@@ -1,6 +1,5 @@
 package hervey.com.randomSample;
-import java.util.HashSet;
-import java.util.Random;
+import java.util.Set;
 
 public class Driver200 {
 
@@ -11,7 +10,7 @@ public class Driver200 {
 		int maxValueNumbers=1000; //will be 1000
 		int minValueNumbers=1;
 		
-		HashSet <Integer> createdSet = SampleSet.createSet(quantityNumbersNeeded, maxValueNumbers, minValueNumbers);
+		Set <Integer> createdSet = SampleSet.createSet(quantityNumbersNeeded, maxValueNumbers, minValueNumbers);
 		
 		System.out.println("resulting set of quantity " + quantityNumbersNeeded + " ranging from " + minValueNumbers + " to " + maxValueNumbers + " is \n" + createdSet.toString());
 		
