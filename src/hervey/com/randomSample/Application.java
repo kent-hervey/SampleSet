@@ -1,7 +1,7 @@
 package hervey.com.randomSample;
 import java.util.Set;
 
-public class Driver200 {
+public class Application {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

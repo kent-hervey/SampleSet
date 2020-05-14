@@ -1,5 +1,6 @@
 Created this small, simple project as contribution to team assignment.
 
+Entry point/main method in Application.java
 
 SampleSet creates and returns as set based on arguments passed in:
    * Quantity = number of elements in produced set
